@@ -17,14 +17,14 @@ body {
   }
 }
 
-@media screen and (max-width: 1300px) {
+/* @media screen and (max-width: 1300px) {
   .contaner {
-    /* flex-direction: column-reverse; */
+    flex-direction: column-reverse;
   }
-}
+} */
 
 .contaner {
-  background-color: hsl(229, 80%, 22%);
+  background-color: hsl(232, 67%, 17%);
   border-radius: 8px;
 
   display: flex;
@@ -40,7 +40,6 @@ body {
   margin-top: 4rem;
   margin-left: 4rem;
   margin-right: 4rem;
-  text-align: center;
 }
 
 .header {
@@ -72,6 +71,7 @@ body {
   .img {
     width: 0;
     background-image: url(./images/image-header-mobile.jpg);
+    /* display: none; */
   }
 }
 
